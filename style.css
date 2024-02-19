@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    text-align: center;
+  
+}
+h1{
+    background-color: #081b31;
+    color:#ffffff;
+    height:5rem;
+    line-height: 5rem;
+    
+
+}
+.choice{
+    height:165px;
+    width:165px;
+    border-radius: 50%;
+    display:flex; /*to make the 3 images in same row*/
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+img{
+    height:150px;
+    width:150px;
+    object-fit: cover; /* for clarity of image*/
+        
+    border-radius: 50%;/*for round shaped image*/
+
+
+
+
+}
+.choice:hover{
+    
+    background-color:#081b31;
+    cursor:pointer;/*for getting hand shaped cursor*/
+
+
+
+}
+.choices{
+    display:flex; /*to make the 3 images in same row*/
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    margin-top: 5rem;
+}
+.score-board{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10rem;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.msg-container{
+    margin-top:3rem;
+}
+#msg{
+    font-size: 40px;
+    margin-top: 50px;
+    background-color:#081b31;
+    color:#ffffff;
+    display: inline;
+    padding:1rem;
+    border-radius: 1rem;/*to round*/
+    
+    
+    
+}
+body{
+    
+    background-image:url("22.jpg");
+    background-size:80vmin; /* This will make the background image cover the entire viewport */
+    background-position: center;
+    background-position-y:1rem ;
+    background-color: aliceblue;
+
+    ;
+}
